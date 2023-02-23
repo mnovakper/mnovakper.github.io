@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;700&family=Roboto+Mono&display=swap');
+
+:root {
+    --primary-background: #181818;
+    --secondary-background: #0A0A0A;
+    --table-gray: #929292;
+    --primary-blue: #13A0B0;
+    --card-yellow: #FCDA5E;
+    --card-purple: #B399D3;
+    --card-orange: #FFA553;
+    --card-green: #54FF85;
+}
+
+body {
+    background: var(--primary-background);
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.navbar {
+
+    background: var(--primary-background);
+    padding: 2em;
+
+    .logo {
+        text-decoration: none;
+        font-family: 'Bebas Neue';
+        color: white;
+        font-size: 1.2em;
+    }
+
+    nav {
+        display: none;
+    }
+    
+    .container {
+        display: flex;
+        place-content: space-between;
+    }
+
+    .mobile-menu {
+        cursor: pointer;
+    }
+}
+
+a {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h1, h2, p {
+    color: white;
+}
+
+section {
+    padding: 5em 2em;
+}
+
+.hero {
+
+    span {
+        color: var(--primary-blue);
+    }
+}
+
+.section-about {
+
+    h2 {
+        text-align: center;
+        //font-size: 2em;
+    }
+
+    .left-col {
+        border: 2px solid var(--table-gray);
+        text-align: left;
+        font-family: 'Roboto Mono';
+        //font-size: 0.7em;
+        line-height: 1.5em;
+        padding: 3.5em;
+    }
+
+    .right-col {
+        border: 2px solid var(--table-gray);
+        text-align: left;
+        font-family: 'Roboto Mono';
+        //font-size: 0.7em;
+        line-height: 1.5em;
+        padding: 3.5em;
+    }
+
+    img {
+        width: 20%;
+        margin-bottom: 1em;
+    }
+
+    .slika {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.section-work {
+
+    h2 {
+        //font-size: 2em;
+        line-height: 0.3em;
+    }
+
+    p {
+        font-family: 'Roboto Mono';
+        //font-size: 0.7em;
+    }
+
+    a {
+        text-align: center;
+    }
+
+    .some-work {
+        padding-bottom: 1em;
+    }
+
+    .see-more {
+        padding-top: 0.5em;
+    }
+    
+}
+
+.section-contact {
+
+    padding: 2em 2em;
+    background: var(--secondary-background);
+
+    a {
+        color: white;
+    }
+
+    p {
+        line-height: 0.5em;
+        font-family: 'Roboto Mono';
+    }
+}
+
+form {
+    margin-top: 3em;
+}
+
+label {
+    display: block;
+    color: white;
+    font-weight: bold;
+    //margin-top: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border-radius: 0.3em;
+    border: 1px;
+    background: var(--primary-background);
+    color: white;
+    box-sizing: border-box;
+}
+
+.copyright {
+    font-size: 0.7em;
+    text-align: center;
+    padding-top: 7em;
+}
+
+button[type="submit"] {
+    background-color: var(--primary-blue);
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 0.3em;
+    //display: inline;
+    //width: unset;
+    padding: 0.8em 2em;
+    cursor: pointer;
+}
+
+// ovo je za js od hamburger menija
+nav.menu-btn {
+    display: block;
+}
+
+nav {
+    position: fixed;
+    z-index: 999;
+    width: 66%;
+    right: 0;
+    top: 0;
+    background: white;
+    height: 100vh;
+    padding: 2em;
+
+    ul.primary-nav {
+        margin-top: 5em;
+    }
+
+    li {
+
+        a {
+            text-decoration: none;
+            display: block;
+            padding: .5em;
+            font-size: 1.3em;
+            text-align: right;
+            font-family: 'Bebas Neue';
+
+            &:hover {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.mobile-menu-exit {
+    float: right;
+    margin: .5em;
+    cursor: pointer;
+}
+
+.cards {
+
+    .card{
+        //padding: 0rem 1.2rem;
+        border-radius: 0.8rem;
+        text-align: center;
+
+        .naslov {
+            font-weight: bold;
+        }
+
+        .podnaslov {
+            font-size: 1em;
+            padding-bottom: 0.5em;
+        }
+
+        margin-bottom: 2.5em;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.02);
+            transition: all 0.2s ease;
+        }
+    }
+    
+    p {
+        color: black;
+        font-size: 2em;
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins';
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    span {
+        font-weight: bold;
+    }
+
+    img {
+        width: 20em;
+        height: 20em;
+        border-radius: 0.5em;
+    }
+
+    #card1 {
+        background: var(--card-yellow);
+    }
+
+    #card2 {
+        background: var(--card-green);
+    }
+
+    #card3 {
+        background: var(--card-purple);
+    }
+
+    #card4 {
+        background: var(--card-orange);
+    }
+}

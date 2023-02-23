@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;700&family=Roboto+Mono&display=swap");
+:root {
+  --primary-background: #181818;
+  --secondary-background: #0A0A0A;
+  --table-gray: #929292;
+  --primary-blue: #13A0B0;
+  --card-yellow: #FCDA5E;
+  --card-purple: #B399D3;
+  --card-orange: #FFA553;
+  --card-green: #54FF85;
+}
+
+body {
+  background: var(--primary-background);
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.navbar {
+  background: var(--primary-background);
+  padding: 2em;
+}
+.navbar .logo {
+  text-decoration: none;
+  font-family: "Bebas Neue";
+  color: white;
+  font-size: 1.2em;
+}
+.navbar nav {
+  display: none;
+}
+.navbar .container {
+  display: flex;
+  place-content: space-between;
+}
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+a {
+  color: black;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h1, h2, p {
+  color: white;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero span {
+  color: var(--primary-blue);
+}
+
+.section-about h2 {
+  text-align: center;
+}
+.section-about .left-col {
+  border: 2px solid var(--table-gray);
+  text-align: left;
+  font-family: "Roboto Mono";
+  line-height: 1.5em;
+  padding: 3.5em;
+}
+.section-about .right-col {
+  border: 2px solid var(--table-gray);
+  text-align: left;
+  font-family: "Roboto Mono";
+  line-height: 1.5em;
+  padding: 3.5em;
+}
+.section-about img {
+  width: 20%;
+  margin-bottom: 1em;
+}
+.section-about .slika {
+  display: flex;
+  justify-content: center;
+}
+
+.section-work h2 {
+  line-height: 0.3em;
+}
+.section-work p {
+  font-family: "Roboto Mono";
+}
+.section-work a {
+  text-align: center;
+}
+.section-work .some-work {
+  padding-bottom: 1em;
+}
+.section-work .see-more {
+  padding-top: 0.5em;
+}
+
+.section-contact {
+  padding: 2em 2em;
+  background: var(--secondary-background);
+}
+.section-contact a {
+  color: white;
+}
+.section-contact p {
+  line-height: 0.5em;
+  font-family: "Roboto Mono";
+}
+
+form {
+  margin-top: 3em;
+}
+
+label {
+  display: block;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  border: 1px;
+  background: var(--primary-background);
+  color: white;
+  box-sizing: border-box;
+}
+
+.copyright {
+  font-size: 0.7em;
+  text-align: center;
+  padding-top: 7em;
+}
+
+button[type=submit] {
+  background-color: var(--primary-blue);
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 0.3em;
+  padding: 0.8em 2em;
+  cursor: pointer;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background: white;
+  height: 100vh;
+  padding: 2em;
+}
+nav ul.primary-nav {
+  margin-top: 5em;
+}
+nav li a {
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+  font-size: 1.3em;
+  text-align: right;
+  font-family: "Bebas Neue";
+}
+nav li a:hover {
+  font-weight: bold;
+}
+
+.mobile-menu-exit {
+  float: right;
+  margin: 0.5em;
+  cursor: pointer;
+}
+
+.cards .card {
+  border-radius: 0.8rem;
+  text-align: center;
+  margin-bottom: 2.5em;
+}
+.cards .card .naslov {
+  font-weight: bold;
+}
+.cards .card .podnaslov {
+  font-size: 1em;
+  padding-bottom: 0.5em;
+}
+.cards .card:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: all 0.2s ease;
+}
+.cards p {
+  color: black;
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+.cards a {
+  text-decoration: none;
+}
+.cards span {
+  font-weight: bold;
+}
+.cards img {
+  width: 20em;
+  height: 20em;
+  border-radius: 0.5em;
+}
+.cards #card1 {
+  background: var(--card-yellow);
+}
+.cards #card2 {
+  background: var(--card-green);
+}
+.cards #card3 {
+  background: var(--card-purple);
+}
+.cards #card4 {
+  background: var(--card-orange);
+}/*# sourceMappingURL=main.css.map */
