@@ -101,6 +101,7 @@ section {
 }
 .section-work a {
   text-align: center;
+  text-decoration: none;
 }
 .section-work .some-work {
   padding-bottom: 1em;
@@ -119,6 +120,9 @@ section {
 .section-contact p {
   line-height: 0.5em;
   font-family: "Roboto Mono";
+}
+.section-contact span {
+  line-height: 1.5em;
 }
 
 form {
@@ -155,6 +159,7 @@ button[type=submit] {
   font-size: 1em;
   font-weight: bold;
   border-radius: 0.3em;
+  border: 1px;
   padding: 0.8em 2em;
   cursor: pointer;
 }

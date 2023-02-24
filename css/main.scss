@@ -126,6 +126,7 @@ section {
 
     a {
         text-align: center;
+        text-decoration: none;
     }
 
     .some-work {
@@ -150,6 +151,10 @@ section {
     p {
         line-height: 0.5em;
         font-family: 'Roboto Mono';
+    }
+
+    span {
+        line-height: 1.5em;
     }
 }
 
@@ -188,6 +193,7 @@ button[type="submit"] {
     font-size: 1em;
     font-weight: bold;
     border-radius: 0.3em;
+    border: 1px;
     //display: inline;
     //width: unset;
     padding: 0.8em 2em;
