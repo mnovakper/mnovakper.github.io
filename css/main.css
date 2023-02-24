@@ -269,6 +269,7 @@ nav li a:hover {
     height: auto;
     width: 100%;
     padding: 0;
+    padding-top: 0.5em;
   }
   .navbar nav ul {
     display: flex;
