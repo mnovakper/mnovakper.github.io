@@ -24,7 +24,7 @@ body {
   text-decoration: none;
   font-family: "Bebas Neue";
   color: white;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 .navbar nav {
   display: none;
@@ -64,7 +64,7 @@ section {
 }
 
 .hero {
-  padding: 14em 2em 7em 2em;
+  padding: 16em 2em 7em 2em;
 }
 .hero span {
   color: var(--primary-blue);
