@@ -234,6 +234,9 @@ nav li a:hover {
 .cards span {
   font-weight: bold;
 }
+.cards .git {
+  font-size: 1.2em;
+}
 .cards img {
   width: 18em;
   height: 18em;
