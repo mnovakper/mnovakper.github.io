@@ -64,7 +64,7 @@ section {
 }
 
 .hero {
-  padding: 16em 2em 7em 2em;
+  padding: 20em 2em 9em 2em;
 }
 .hero span {
   color: var(--primary-blue);
@@ -188,8 +188,8 @@ nav ul.primary-nav {
 nav li a {
   text-decoration: none;
   display: block;
-  padding: 0.5em;
-  font-size: 1.3em;
+  padding: 0.3em;
+  font-size: 1.8em;
   text-align: right;
   font-family: "Bebas Neue";
 }
