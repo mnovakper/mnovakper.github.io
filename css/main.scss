@@ -146,6 +146,7 @@ section {
 
     a {
         color: white;
+        color: var(--primary-blue);
     }
 
     p {
@@ -154,7 +155,7 @@ section {
     }
 
     span {
-        line-height: 1.5em;
+        line-height: normal;
     }
 }
 
@@ -245,7 +246,7 @@ nav {
 .cards {
 
     .card{
-        //padding: 0rem 1.2rem;
+        padding: 0;
         border-radius: 0.8rem;
         text-align: center;
 
@@ -265,6 +266,7 @@ nav {
             transform: scale(1.02);
             transition: all 0.2s ease;
         }
+
     }
     
     p {
@@ -284,8 +286,8 @@ nav {
     }
 
     img {
-        width: 20em;
-        height: 20em;
+        width: 18em;
+        height: 18em;
         border-radius: 0.5em;
     }
 
