@@ -18,7 +18,7 @@ body {
 
 .navbar {
   background: var(--primary-background);
-  padding: 2em;
+  padding: 1.5em;
 }
 .navbar .logo {
   text-decoration: none;
@@ -60,9 +60,12 @@ h1, h2, p {
 }
 
 section {
-  padding: 5em 2em;
+  padding: 7em 2em;
 }
 
+.hero {
+  padding: 14em 2em 7em 2em;
+}
 .hero span {
   color: var(--primary-blue);
 }
@@ -111,7 +114,7 @@ section {
 }
 
 .section-contact {
-  padding: 2em 2em;
+  padding: 4em 2em;
   background: var(--secondary-background);
 }
 .section-contact a {
@@ -177,7 +180,7 @@ nav {
   top: 0;
   background: white;
   height: 100vh;
-  padding: 2em;
+  padding: 1.5em;
 }
 nav ul.primary-nav {
   margin-top: 5em;
