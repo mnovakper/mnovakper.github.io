@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="navbar">
+    <div id="home" class="navbar">
         <div class="container">
             <a class="logo" href="#">mnovakper.dev</a>
 
@@ -17,10 +17,10 @@
             <nav>
                 <img id="mobile-exit" class="mobile-menu-exit" src="img/close-black.svg" alt="">
                 <ul class="primary-nav">
-                    <li class="current"><a href="#">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">projects</a></li>
-                    <li><a href="#">contact</a></li>
+                    <li class="current"><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#work">projects</a></li>
+                    <li><a href="#contact">contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,7 +32,7 @@
         </div>
     </section>
 
-    <section class="section-about">
+    <section id="about" class="section-about">
         <h2>About</h2>
         <div class="container">
             
@@ -49,7 +49,7 @@
         </div>
     </section>
 
-    <section class="section-work">
+    <section id="work" class="section-work">
         <h2>My</h2>
         <h2>Work</h2>
         <p class="some-work">Here are some of my projects:</p>
@@ -100,7 +100,7 @@
         <a href="#"><p class="see-more">See more...</p></a>
     </section>
 
-    <section class="section-contact">
+    <section id="contact" class="section-contact">
         <div class="container">
             <h2>Contact</h2>
             <p>Send me an email to <span><a href="mailto:mnovakper@tvz.hr">mnovakper@tvz.hr</a></span></p>
@@ -124,7 +124,8 @@
     <script>
         const mobileBtn = document.getElementById('mobile-cta')
             nav = document.querySelector('nav')
-            mobileBtnExit = document.getElementById('mobile-exit');
+            mobileBtnExit = document.getElementById('mobile-exit')
+            menuItems = nav.querySelectorAll('a');
 
         mobileBtn.addEventListener('click', () => {
             nav.classList.add('menu-btn');
@@ -133,6 +134,12 @@
         mobileBtnExit.addEventListener('click', () => {
             nav.classList.remove('menu-btn');
         })
+
+        menuItems.forEach((menuItem) => {
+            menuItem.addEventListener('click', () => {
+                nav.classList.remove('menu-btn');
+            });
+        });
 
     </script>
 

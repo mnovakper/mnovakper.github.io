@@ -192,6 +192,7 @@ nav li a {
 }
 nav li a:hover {
   font-weight: bold;
+  color: var(--primary-blue);
 }
 
 .mobile-menu-exit {
