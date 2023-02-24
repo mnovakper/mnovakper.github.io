@@ -153,13 +153,13 @@ section {
     }
 
     p {
-        line-height: 0.5em;
+        line-height: normal;
         font-family: 'Roboto Mono';
     }
 
-    span {
-        line-height: normal;
-    }
+    // span {
+    //     line-height: normal;
+    // }
 }
 
 form {
