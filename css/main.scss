@@ -9,6 +9,7 @@
     --card-purple: #B399D3;
     --card-orange: #FFA553;
     --card-green: #54FF85;
+    --card-blue: #5e80fc;
 }
 
 body {
@@ -318,6 +319,10 @@ nav {
 
     #card4 {
         background: var(--card-orange);
+    }
+
+    #card5 {
+        background: var(--card-blue);
     }
 }
 

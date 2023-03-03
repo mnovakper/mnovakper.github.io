@@ -8,6 +8,7 @@
   --card-purple: #B399D3;
   --card-orange: #FFA553;
   --card-green: #54FF85;
+  --card-blue: #5e80fc;
 }
 
 body {
@@ -255,6 +256,9 @@ nav li a:hover {
 }
 .cards #card4 {
   background: var(--card-orange);
+}
+.cards #card5 {
+  background: var(--card-blue);
 }
 
 @media only screen and (min-width: 768px) {
