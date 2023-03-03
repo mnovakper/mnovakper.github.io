@@ -95,6 +95,10 @@ section {
   display: flex;
   justify-content: center;
 }
+.section-about span {
+  color: var(--primary-blue);
+  font-weight: bold;
+}
 
 .section-work h2 {
   line-height: 0.3em;

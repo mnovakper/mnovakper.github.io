@@ -113,6 +113,11 @@ section {
         display: flex;
         justify-content: center;
     }
+
+    span {
+        color: var(--primary-blue);
+        font-weight: bold;
+    }
 }
 
 .section-work {
