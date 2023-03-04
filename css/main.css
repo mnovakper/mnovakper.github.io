@@ -214,6 +214,7 @@ nav li a:hover {
 }
 .cards .card .naslov {
   font-weight: bold;
+  padding-top: 0.5em;
 }
 .cards .card .podnaslov {
   font-size: 1em;
@@ -239,6 +240,8 @@ nav li a:hover {
 }
 .cards .git {
   font-size: 1.2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.8em;
 }
 .cards img {
   width: 18em;
